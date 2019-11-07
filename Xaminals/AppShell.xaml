@@ -131,7 +131,7 @@
     <FlyoutItem Route="animals"
                 Title="LOGIN PAGE"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Contoh Multi"
+        <!--<Tab Title="Contoh Multi"
              Route="domestic"
              Icon="paw.png">
             <ShellContent Route="cats"
@@ -144,11 +144,11 @@
                           Title="Dogs"
                           Icon="dog.png"
                           ContentTemplate="{DataTemplate views:DogsPage}" />
-        </Tab>
+        </Tab>-->
         <ShellContent Route="LoginPage"
                       Style="{StaticResource LoginShell}"
                       Title="Login Page"
-                      Icon="loginlogo.png"
+                      Icon="cat.png"
                       ContentTemplate="{DataTemplate views:LoginFormPage}" />
         <ShellContent Route="ContohPage"
                       Style="{StaticResource ContohShell}"
